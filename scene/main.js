@@ -46,6 +46,12 @@ bgBack.position.y = 25;
 bgBack.rotation.y = 180;
 
 
+//rotating texture cylinder
+const cylinderGeo = new THREE.CylinderGeometry(30, 30, 50);
+const cylinderMat = new THREE.MeshBasicMaterial( { color: 0xFFBC00});
+
+
+
 const cubeSize = 5;
 const geometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00, wireframe: true });
